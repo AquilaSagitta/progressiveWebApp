@@ -1,0 +1,8 @@
+- hosts: all
+  become: yes
+  vars:
+    - nodejs_version: 8.x
+    - nodejs_npm_global_packages:
+      - name: ember-cli
+  roles:
+    - geerlingguy.nodejs
