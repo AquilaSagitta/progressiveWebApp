@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'www',
+    modulePrefix: 'progressiveWebApp',
     environment,
     rootURL: '/',
     locationType: 'auto',
