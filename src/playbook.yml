@@ -6,3 +6,4 @@
       - name: ember-cli
   roles:
     - geerlingguy.nodejs
+    - cmprescott.chrome
